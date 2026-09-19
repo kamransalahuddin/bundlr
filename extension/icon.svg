@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Bundlr">
+  <defs>
+    <linearGradient id="green" x1="22" y1="12" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#76ffc8"/>
+      <stop offset="0.55" stop-color="#08e79b"/>
+      <stop offset="1" stop-color="#00b876"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-15%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="50" fill="url(#green)" stroke="#050505" stroke-width="6" filter="url(#shadow)"/>
+  <path d="M45 31h23.5c15.4 0 24.7 7.1 24.7 18.2 0 6.8-3.5 12-9.9 14.6 8.1 2.3 12.7 8 12.7 16.3 0 12.5-9.8 20.9-26.3 20.9H45V31zm22.3 27.3c7.2 0 11.5-2.9 11.5-8.1 0-5.1-4.1-7.7-11.3-7.7H59.2v15.8h8.1zm2.4 31.1c8.1 0 12.6-3.4 12.6-9.5 0-5.9-4.5-9.1-12.6-9.1H59.2v18.6h10.5z" fill="#050505"/>
+  <path d="M59.2 42.5h8.3c7.2 0 11.3 2.6 11.3 7.7 0 5.2-4.3 8.1-11.5 8.1h-8.1V42.5zm0 28.3h10.5c8.1 0 12.6 3.2 12.6 9.1 0 6.1-4.5 9.5-12.6 9.5H59.2V70.8z" fill="#ffffff"/>
+</svg>

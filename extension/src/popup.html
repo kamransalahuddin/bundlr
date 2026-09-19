@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bundlr</title>
+    <link rel="stylesheet" href="./popup.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="brandbar">
+        <div class="brandmark" aria-hidden="true">B</div>
+        <h1>Bundlr</h1>
+        <button id="refreshBins" class="icon-action" type="button" title="Refresh saved bins" aria-label="Refresh saved bins">&#8635;</button>
+      </header>
+
+      <section class="hero-card">
+        <h2>Download Course Content</h2>
+        <p>Open a Canvas course or dashboard. Bundlr will gather Canvas, readings, files, and lecture transcripts into course bins.</p>
+        <button id="downloadCourseContent" class="primary-action" type="button">Download Course Content</button>
+      </section>
+
+      <section class="bins-card">
+        <h2>Course Bins</h2>
+        <div id="binsList" class="bins-list">
+          <div class="empty-bin">No bins yet</div>
+        </div>
+      </section>
+
+      <section id="log" class="status-panel idle" aria-live="polite">
+        <div class="status-orb" aria-hidden="true"></div>
+        <div>
+          <strong>Ready when you are</strong>
+          <span>Open Canvas or a lecture page, then start a download.</span>
+        </div>
+      </section>
+    </main>
+    <script src="./popup.js"></script>
+  </body>
+</html>
